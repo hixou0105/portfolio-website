@@ -54,6 +54,7 @@ a:hover {
     visibility: visible;
     transform: scaleX(0.65);
 }
+
 /* Borders */
 
 .top-border {
@@ -92,24 +93,6 @@ a:hover {
     text-align: center;
 }
 
-.left-nav ul{
-    list-style-type: none;
-    margin: 0;
-    padding: 0 0 0 100px;
-
-}
-
-.left-nav li {
-    float: left;
-}
-
-.left-nav li a {
-    margin-left: 5px;
-    display: inline-block;
-    padding: 10px 30px;
-}
-
-
 .right-nav ul {
     list-style-type: none;
     margin: 0;
@@ -117,7 +100,7 @@ a:hover {
 }
 
 .right-nav li {
-    float: right
+    float: right;
 }
 
 .right-nav li a {
@@ -128,7 +111,22 @@ a:hover {
 
 .name-title {
     font-family: 'Molle', cursive;
-    font-size: 60px;
-    text-align: center;
-    line-height: 3;
+    font-size: 65px;
+    line-height: 2;
+    position: fixed;
+    left: 100px;
+}
+
+/* Information Box */
+
+#information-box {
+    background-color: rgb(201, 201, 201);
+    height: 800px;
+    width: 650px;
+    position: fixed;
+    top: 125px;
+    left: 1125px;
+    right: 25px;
+    margin: auto;
+
 }
